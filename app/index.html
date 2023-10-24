@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IP-Application</title>
+    <link rel="shortcut icon" href="./public/seo.png" type="image/x-icon" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><strong>IP-APP</strong></li>
+      </ul>
+      <ul>
+        <li><a href="https://github.com/watercubz">GitHub 🚀</a></li>
+        <li><a href="#">Discord</a></li>
+      </ul>
+    </nav>
+    <main class="container">
+      <form id="form">
+        <label> IP del usuario </label>
+        <label>
+          <input
+            required
+            id="input"
+            type="text"
+            placeholder="Introduce aqui la IP"
+            maxlength="15"
+            minlength="11"
+          />
+          <small>Por ejemplo: 54.85.132.285</small>
+        </label>
+        <button id="submit" type="submit">Buscar informacion de esta IP</button>
+      </form>
+    </main>
+    <div>
+      <pre id="results"></pre>
+    </div>
+    <footer class="text-center py-6">
+      Creado con mucho 💜 por
+      <a href="https://github.com/watercubz" target="_blank">watercubz</a>
+    </footer>
+  </body>
+  <script src="./app.js"></script>
+</html>

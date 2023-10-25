@@ -5,8 +5,7 @@
 
 ## Acknowledgements
 
- - [miduvdev](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
- - [rapidapi](https://rapidapi.com/xakageminato/api/ip-geolocation-ipwhois-io)
+ - [rapiapi](https://rapidapi.com/xakageminato/api/ip-geolocation-ipwhois-io)
 
 
 ## Installation
